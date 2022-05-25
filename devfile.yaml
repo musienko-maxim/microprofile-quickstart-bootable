@@ -1,7 +1,13 @@
 schemaVersion: 2.1.0
 metadata:
   name: jboss-eap-bootable
-attributes:  
+attributes:
+  .vscode/extensions.json: |
+    {
+      "recommendations": [
+        "redhat.java"
+      ]
+    }
   che-theia.eclipse.org/sidecar-policy: mergeImage
 components:
   - name: tools
