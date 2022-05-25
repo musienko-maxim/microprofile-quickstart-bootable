@@ -2,12 +2,8 @@ schemaVersion: 2.1.0
 metadata:
   name: jboss-eap-bootable
 attributes:
-  .vscode/extensions.json: |
-    {
-      "recommendations": [
-        "redhat.java"
-      ]
-    }
+  .che/che-theia-plugins.yaml: |
+   - id: redhat/java
 components:
   - name: tools
     container:
