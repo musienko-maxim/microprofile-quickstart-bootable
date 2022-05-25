@@ -1,6 +1,8 @@
 schemaVersion: 2.1.0
 metadata:
   name: jboss-eap-bootable
+attributes:  
+  che-theia.eclipse.org/sidecar-policy: mergeImage
 components:
   - name: tools
     container:

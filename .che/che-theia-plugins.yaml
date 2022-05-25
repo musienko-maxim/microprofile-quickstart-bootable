@@ -1,0 +1,4 @@
+  - id: redhat/java/latest
+    override:
+      sidecar:
+        memoryLimit: 2Gi
