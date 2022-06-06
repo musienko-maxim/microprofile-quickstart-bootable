@@ -7,7 +7,7 @@ components:
   - name: tools
     container:
       image: quay.io/devspaces/udi-rhel8:3.1
-      memoryLimit: 3Gi
+      memoryLimit: 2Gi
       endpoints:
         - exposure: public
           name: eap-http
